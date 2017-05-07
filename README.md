@@ -2,9 +2,9 @@
 Deep-Chat is a chatbot implemented by deep neural network. It can understand human language and give a proper responce based on your input. Right now only English is supported.
 
 # Dependencies
-Python 3 (numpy, scipy, etc...)
-Keras 2.02
-Tensorflow 1.1
+Python 3 (numpy, scipy, etc...),\\
+Keras 2.02,\\
+Tensorflow 1.1. You'd better have a power GPU and install the tensorflow-gpu, otherwise the training time is too long. 
 
 # Training the network
 To avoid too much training time, 750 thousands of dialogues are used for training. Since the training dataset is not large enough (compared to thousand thousands used by Google), the hidden size of the network should not be too high. Otherwise it's possible that you'll overfit the dataset.
